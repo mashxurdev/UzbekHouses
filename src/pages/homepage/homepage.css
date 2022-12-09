@@ -1,0 +1,127 @@
+.homepage {
+  width: 100%;
+  height: 100vh;
+  background: url("https://dezigndistrict.com/pub/media/mageplaza/blog/post/d/p/dp.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.homepage .homepage-container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+}
+
+.homepage .homepage-container::before {
+  content: "";
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.homepage .homepage-container div {
+  flex: 1;
+  background: none;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  position: relative;
+}
+
+.homepage .homepage-container div:first-child {
+  border-right: 1px solid #666665;
+  text-align: center;
+  padding-bottom: 30px;
+  font-size: 12px;
+  letter-spacing: 1.6px;
+}
+
+.homepage .homepage-container div:first-child a {
+  color: #cdcdcb;
+}
+
+.homepage .homepage-container div:nth-child(2) {
+  border-right: 1px solid #666665;
+}
+
+.homepage .homepage-container div:nth-child(3) {
+  border-right: 1px solid #666665;
+}
+
+.homepage .homepage-container div:last-child {
+  text-align: center;
+  padding-bottom: 30px;
+  font-size: 12px;
+  letter-spacing: 1.6px;
+}
+
+.homepage .homepage-container div:last-child a {
+  color: #cdcdcb;
+}
+
+.homepage .homepage-center {
+  position: absolute;
+  width: 100vh;
+  height: 100vh;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #666665;
+  border-radius: 50%;
+}
+
+.homepage .homepage-center p {
+  font-size: 4.4rem;
+  text-align: center;
+  font-weight: 100;
+  color: #edebeb;
+}
+
+@media screen and (max-width:768px) {
+  .homepage .homepage-center {
+    width: 88vh;
+    height: 88vh;
+    top: 53px;
+  }
+}
+
+@media screen and (max-width:425px) {
+  .homepage .homepage-center {
+    width: 48vh;
+    height: 48vh;
+    top: 205px;
+  }
+
+  .homepage .homepage-center p {
+    font-size: 2.7rem;
+  }
+}
+
+@media screen and (max-width:375px) {
+  .homepage .homepage-center {
+    width: 43vh;
+    height: 43vh;
+    top: 260px;
+  }
+
+  .homepage .homepage-center p {
+    font-size: 2.5rem;
+  }
+
+  .homepage .homepage-container div:first-child a {
+    width: 118px;
+  }
+}
+@media screen and (max-width:320px) {
+  .homepage .homepage-center {
+    width: 37vh;
+    height: 37vh;
+    top: 260px;
+  }
+}

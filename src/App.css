@@ -1,0 +1,33 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+
+  border-radius: 5px;
+  background: rgb(181, 182, 182);
+}
+
+::-webkit-scrollbar-track {
+  width: 5px;
+  border-radius: 5px;
+  background: rgb(218, 217, 217);
+}
+
+body {
+  font-family: Muller;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}

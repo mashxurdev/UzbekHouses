@@ -1,0 +1,80 @@
+export const team_data = [
+  {
+    id: 1,
+    imgUrl: "https://api.homecult.com.ua/assets/847b2646_2.jpg",
+    name: "VICTORIA",
+    profession: "Creative director",
+  },
+  {
+    id: 2,
+    imgUrl: "https://api.homecult.com.ua/assets/847b2769_2-(1)-1565254682.jpg",
+    name: "ELENA",
+    profession: "Interior designer",
+  },
+  {
+    id: 3,
+    imgUrl: "https://api.homecult.com.ua/assets/847b2819_2.jpg",
+    name: "CHRISTINA",
+    profession: "Interior designer",
+  },
+  {
+    id: 4,
+    imgUrl: "https://api.homecult.com.ua/assets/847b2522_2.jpg",
+    name: "ALEXANDER",
+    profession: "3D Vizualizator",
+  },
+  {
+    id: 5,
+    imgUrl: "https://api.homecult.com.ua/assets/847b2705_2.jpg",
+    name: "VICTOR",
+    profession: "3D Vizualizator",
+  },
+  {
+    id: 6,
+    imgUrl: "https://api.homecult.com.ua/assets/847b2985_2.jpg",
+    name: "VICTORIA",
+    profession: "Creative director",
+  },
+  {
+    id: 7,
+    imgUrl: "https://api.homecult.com.ua/assets/847b2792_2.jpg",
+    name: "ALEXANDER",
+    profession: "Creative director",
+  },
+  {
+    id: 8,
+    imgUrl: "https://api.homecult.com.ua/assets/847b2634_2-(1)-1565268103.jpg",
+    name: "VICTORIA",
+    profession: "3D Vizualizator",
+  },
+  {
+    id: 9,
+    imgUrl: "https://api.homecult.com.ua/assets/847b2876_2.jpg",
+    name: "ALEXANDER",
+    profession: "Creative director",
+  },
+  {
+    id: 10,
+    imgUrl: "https://api.homecult.com.ua/assets/847b2962_2.jpg",
+    name: "JOHN",
+    profession: "Interior designer",
+  },
+  {
+    id: 11,
+    imgUrl: "https://api.homecult.com.ua/assets/847b2724_2.jpg",
+    name: "MICHAEL",
+    profession: "3D Vizualizator",
+  },
+  {
+    id: 12,
+    imgUrl: "https://api.homecult.com.ua/assets/847b2579_2.jpg",
+    name: "VICTORIA",
+    profession: "Creative director",
+  },
+  {
+    id: 13,
+    imgUrl: "https://api.homecult.com.ua/assets/847b2559_2.jpg",
+    name: "HARDEN",
+    profession: "Interior designer",
+  },
+];
