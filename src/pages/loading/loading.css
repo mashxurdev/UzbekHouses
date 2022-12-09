@@ -1,0 +1,38 @@
+.loading-page {
+  width: 100%;
+  height: 100vh;
+  position: absolute;
+  z-index: 999;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2rem;
+}
+.loading-page::before {
+  content: "";
+  width: 100%;
+  height: 100%;
+  left: 0;
+  position: absolute;
+  background: #151414;
+  mix-blend-mode: difference;
+}
+.loading-page::after {
+  content: "";
+  width: 100%;
+  height: 100%;
+  left: -100%;
+  position: absolute;
+  background: #ece8e5;
+  mix-blend-mode: difference;
+  animation: loading 5s ease-in-out;
+}
+.loading-page p {
+  color: #ece8e5;
+  text-align: center;
+}
+@keyframes loading {
+  to {
+    left: 0;
+ }
+}
